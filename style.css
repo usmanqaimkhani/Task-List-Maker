@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+  background-image: url(luca-bravo-9l_326FISzk-unsplash.jpg);
+  background-repeat: no-repeat;
+  max-height: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid brown;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin-top: 16%;
+}
+
+button {
+  margin: 6px;
+  background-color: rgb(38, 156, 203);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: large;
+}
+button:hover {
+  color: bisque;
+  transition: 0.2s;
+}
+
+.task {
+  margin-bottom: 5px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(214, 26, 26);
+  /* text-decoration: underline; */
+}
+input {
+  background-color: whitesmoke;
+  border-radius: 10px solid brown;
+  margin-right: 7px;
+  padding: 8px;
+  
+}
